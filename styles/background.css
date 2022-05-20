@@ -1,0 +1,22 @@
+.background {
+    width: 350px;
+    height: 300px;
+    border: 1px dashed black;
+    float: left;
+    margin: 10px;
+    /* background-color: aqua;
+    background-image: url('/images/Boxmodell-detail.png'); */
+    background-image: url('/images/tick.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.scroll-box {
+    clear: left;
+    text-align: left;
+    line-height: 30px;
+    width: 50%;
+    height: 250px;
+    border: 1px solid black;
+    overflow-y: hidden;
+}

@@ -1,0 +1,45 @@
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 10px;
+}
+
+.container {
+    margin-top: 220px;
+    /* margin-top: 80px; */
+    border: 1px solid black;
+    padding: 30px;
+    height: 3443px
+}
+
+/* Position Relative */
+/* #box3 {
+    position: relative;
+    top: 30px;
+    left: 40px;
+} */
+
+/* Position absolute */
+/* #box2 {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    
+} */
+
+#box2 {
+    position: fixed;
+    background-color: bisque;
+    width: 100%;
+    top: 0;
+    left: 0;
+    /* top: 0;
+    left: 0; */
+    /* top: 0px;
+    left: 0;
+    width: 100%;
+    margin-left: 0;
+    height: 100px */
+}
